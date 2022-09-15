@@ -216,7 +216,7 @@
 % footer
 \newcommand*{\currentdate}[1]{\def\comcv@date{#1}}
 \def\comcv@totpages{~/~\regular\ref{TotPages}}
-\def\comcv@page{\light{Page~}\thepage\comcv@totpages}
+\def\comcv@page{\light{Strona~}\thepage\comcv@totpages}
 
 \AtBeginDocument{
     \pagestyle{fancy}
