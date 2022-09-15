@@ -221,7 +221,7 @@
 \AtBeginDocument{
     \pagestyle{fancy}
     \fancyhead{}
-    \fancyfoot[C]{\footnotesize\light\comcv@firstname's Résumé, \comcv@date, \comcv@email} % footer text
+    \fancyfoot[C]{\comcv@date, \comcv@email} % footer text
     \fancyfoot[R]{\raggedleft\footnotesize\comcv@page} % page number and page link
     \renewcommand{\headrulewidth}{0em}
     \setlength\footskip{\baselineskip}

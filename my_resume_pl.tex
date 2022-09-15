@@ -1,0 +1,96 @@
+%!TEX TS-program = xelatex
+\documentclass[a4paper]{comcv}
+
+\usepackage[english]{babel}
+
+\title{CV - Wojciech Olech}
+\fullname{Wojciech}{Olech}{Inż. Informatyki}
+\cvtitle{Programista wysokiego i niskiego poziomu, elektronik-hobbysta}
+% \website{https]://www.example.com}{www.example.com}
+\email{wojciech\_olech@hotmail.com}
+\github{https://github.com/SteelPh0enix}{GitHub: SteelPh0enix}
+\linkedin{https://www.linkedin.com/in/wojciech-olech-9b6654140}{LinkedIn: Wojciech Olech}
+\currentdate{14.09.2022}
+
+\begin{document}
+
+Uczę się programowania i pobocznie elektroniki od ponad 8 lat. Pracuję głównie z językami C, C++11/14/17 i Python3, dodatkowo okazyjnie ucząc się podstaw web-developmentu (HTML5, CSS3, JavaScript/TypeScript) oraz języków Rust i Kotlin. Większość doświadczenia komercyjnego mam w programowaniu mikrokontrolerów STM32 w języku C, oraz diagnozowaniu problemów sprzętowych na płytkach PCB. Znam język angielski i polski w stopniu komunikatywnym.
+
+\vspace{\topsep}
+
+\section{Doświadczenie}
+
+\combosection{ActiveLife}{Główny programista embedded}{09.2021-05.2022}{
+    \begin{tightlist}
+        \item Tworzenie oprogramowania do akwizycji danych biomedycznych na mikrokontroler STM32 i PC
+        \item Implementacja bibliotek do obsługi modułów \href{https://github.com/SteelPh0enix/S2LP_Driver}{S2-LP} i MAX30001 na mikrokontroler STM32
+        \item Diagnozowanie problemów sprzętowych prototypu urządzenia do akwizycji danych biomedycznych
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\combosection{STMicroelectronics}{Inżynier wsparcia technicznego}{03.2020-03.2022}{
+    \begin{tightlist}
+        \item Wspieranie klientów w zakresie problemów sprzętowych i programowych
+        \item Pomoc z doborem elementów na podstawie potrzeb klientów
+        \item Przeprowadzanie szkoleń hands-on z zakresu obsługi czujników odległości z serii VL53
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\combosection{Teleinfomed}{Główny programista embedded}{06.2019-11.2019}{
+    \begin{tightlist}
+        \item Tworzenie oprogramowania na mobilne urządzenie do wykonywania badań EEG oparte na mikrokontrolerze STM32 i przetworniku A/D ADS1299
+        \item Integracja urządzenia z aplikacją mobilną poprzez protokół BLE (GATT)
+        \item Integracja urządzenia z systemem akwizycji poprzez REST API via WiFi
+        \item Implementacja protokołu TFTP na STM32
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\combosection{Projekt Orion}{Główny programista/Team Leader}{2016-Obecnie}{
+    Projekt Orion to studencki projekt łazika marsjańskiego budowanego na zawody European Rover Challenge. Projekt działa w ramach koła naukowego Microchip na Politechnice Lubelskiej.
+    \vspace{\topsep}
+    \vspace{\topsep}
+    \begin{tightlist}
+        \item Implementacja oprogramowania sterującego \href{https://github.com/SteelPh0enix/OrionChassisDriverV3}{podwoziem} i \href{https://github.com/SteelPh0enix/Orion-v3-Arm-Controller}{ramieniem} łazika na platformach Arduino i STM32
+        \item Implementacja oprogramowania do \href{https://github.com/SteelPh0enix/OrionGRPC}{komunikacji sieciowej} między łazikiem a stacją bazową (PC), oraz jego sterowania, z użyciem protokołu gRPC
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\section{Projekty}
+
+\vspace{\topsep}
+\vspace{\topsep}
+\vspace{\topsep}
+
+\begin{tightlist}
+    \item \href{https://github.com/SteelPh0enix/STM32_HM10_Driver}{Sterownik do obsługi modułu BLE HM-10 na STM32} (C++), razem z implementacją własnego protokołu BLERFComm i \href{https://github.com/SteelPh0enix/BLERFCommClient}{aplikacją desktopową} do jego obsługi (C++/Qt)
+    \item \href{https://github.com/SteelPh0enix/DAC8532}{Sterownik do przetwornika DAC8532 na RaspberryPi} (C++)
+    \item \href{https://github.com/SteelPh0enix/BLEWeatherStation}{Stacja pogodowa z API BLE} na bazie shielda X-NUCLEO-IKS01A3 oraz modułu BlueNRG-M2SP (C), oraz \href{https://github.com/SteelPh0enix/WeatherStationAndroidApp}{aplikacja Androidowa} do jej obsługi (Kotlin)
+    \item \href{https://github.com/SteelPh0enix/OrionChassisDriverV3}{Sterownik podwozia łazika marsjańskiego Orion}, komunikujący się via Protocol Buffers ze stacją bazową (C++)
+    \item \href{https://github.com/SteelPh0enix/Orion-Mini-Rover}{Sterownik mini-łazika Orion} oraz \href{https://github.com/SteelPh0enix/Orion-Mini-Rover}{jego kontrolera}, komunikujące się via nRF24L01+ poprzez JSON API (C++)
+\end{tightlist}
+
+\vspace{\topsep}
+
+\section{Wykształcenie}
+
+\combosection{Zespół Szkół Elektronicznych w Lublinie}{Technik Teleinformatyk}{2013 - 2017}{}
+\vspace{\topsep}
+\combosection{Politechnika Lubelska}{Inżynier Informatyki}{2017 - 2021}{}
+Tytuł pracy inżynierskiej: Akwizytor sygnałów analogowych oparty o RaspberryPi
+\vspace{\topsep}
+\combosection{Politechnika Lubelska}{Magister Informatyki}{2021 - Obecnie}{}
+Tytuł pracy magisterskiej: Analiza porównawcza metod śledzenia mobilnej platformy robotycznej
+
+\vspace{\topsep}
+
+Zostałem polecony przez \href{https://www.linkedin.com/in/filip-demski-2a6405118/}{Filipa Demskiego}. Wyrażam zgodę na przetwarzanie moich danych osobowych przez N7 Space w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko.
+
+\end{document}
