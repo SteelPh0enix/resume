@@ -183,7 +183,7 @@
 
     \begin{center}
         % define your header text size, color and format
-        \fontsize{35pt}{45pt}\thinheader\comcv@firstname~\regularheader\comcv@lastname
+        \fontsize{30pt}{40pt}\thinheader\comcv@firstname~\regularheader\comcv@lastname
         \ifx\comcv@degree\empty% do nothing in case of empty degree
         \else
             \thinheader,~\comcv@degree
@@ -216,7 +216,7 @@
 % footer
 \newcommand*{\currentdate}[1]{\def\comcv@date{#1}}
 \def\comcv@totpages{~/~\regular\ref{TotPages}}
-\def\comcv@page{\light{Strona~}\thepage\comcv@totpages}
+\def\comcv@page{\light{Page~}\thepage\comcv@totpages}
 
 \AtBeginDocument{
     \pagestyle{fancy}

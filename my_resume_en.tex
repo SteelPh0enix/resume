@@ -1,0 +1,101 @@
+%!TEX TS-program = lualatex
+\documentclass[a4paper]{comcv}
+
+\usepackage[english]{babel}
+
+\title{CV - Wojciech Olech}
+\fullname{Wojciech}{Olech}{MSc. computer science}
+\cvtitle{High- and low-level developer, also likes electronics}
+\website{https://steelph0enix.github.io}{steelph0enix.github.io}
+\email{wojciech\_olech@hotmail.com}
+\github{https://github.com/SteelPh0enix}{GitHub: SteelPh0enix}
+\linkedin{https://www.linkedin.com/in/wojciech-olech-9b6654140}{LinkedIn}
+\currentdate{07.03.2024}
+
+\begin{document}
+
+C/C++/Python developer for around a decade. I've been also working with electronics and microcontrollers (AVR and then ARM) for around 8 years. My career started with university projects and commissions for telemedicine-related prototypes, where i've been (both in a team, and solo) responsible for developing low-level firmware and testing hardware for embedded solutions. Last year i've been evaluating Rust language for it's viability in space applications and maintaining critical C software for space missions (Board Support Package and Boot Software).
+
+\vspace{\topsep}
+
+\section{Experience}
+
+\combosection{N7 Space}{Embedded developer}{10.2021-now}{
+    \begin{tightlist}
+        \item Maintaining and refactoring modules for critical space-grade software
+        \item Creating Hardware Abstraction Layer for SAMV71 MCU in Rust
+        \item Updating the test environment for ECSS-compliant CANopen library stack. 
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\combosection{ActiveLife}{Main embedded developer}{09.2021-05.2022}{
+    \begin{tightlist}
+        \item Creating software for data acquisition on STM32 and it's real-time transmission to PC
+        \item Implementation of \href{https://github.com/SteelPh0enix/S2LP_Driver}{S2-LP} and MAX30001 libraries for STM32 MCU
+        \item Diagnosing the hardware issues of the device's prototype.
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\combosection{STMicroelectronics}{Technical support engineer}{03.2020-03.2022}{
+    \begin{tightlist}
+        \item Software and hardware-related customer support
+        \item Hands-on trainings for VL53-series distance sensors.
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\combosection{Teleinfomed}{Main embedded developer}{06.2019-11.2019}{
+    \begin{tightlist}
+        \item Creating software for EEG data acquisition using ADS1299 module on STM32 microcontroller
+        \item Integration of the device with phones via BLE (GATT)
+        \item Integration of the device with server via REST API (WiFi)
+        \item TFTP protocol implementation for STM32 and SPWF01 module
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\combosection{Orion Project}{Main embedded developer/Team Leader}{2016-2023}{
+    Orion Project is a student project of mars rover for European Rover Challenge, created by students on Lublin University of Technology
+    \vspace{\topsep}
+    \begin{tightlist}
+        \item Implementation of \href{https://github.com/SteelPh0enix/OrionChassisDriverV3}{chassis} and \href{https://github.com/SteelPh0enix/Orion-v3-Arm-Controller}{arm} firmware on Arduino and STM32
+        \item Implementation of \href{https://github.com/SteelPh0enix/OrionGRPC}{network communications software} between the rover and base station (PC) via GRPC
+        \item And many more little side-projects and utilities that would take too long to list here...
+    \end{tightlist}
+}
+
+\vspace{\topsep}
+
+\section{Private projects}
+
+\vspace{\topsep}
+\vspace{\topsep}
+\vspace{\topsep}
+
+\begin{tightlist}
+    \item \href{https://github.com/SteelPh0enix/STM32_HM10_Driver}{HM-10 driver for STM32} (C++), along with custom RFComm protocol support and \href{https://github.com/SteelPh0enix/BLERFCommClient}{desktop app} (C++/Qt)
+    \item \href{https://github.com/SteelPh0enix/BLEWeatherStation}{Mini weather station} based on X-NUCLEO-IKS01A3 and BlueNRG-M2SP for BLE support, paired with \href{https://github.com/SteelPh0enix/WeatherStationAndroidApp}{an android app} (Kotlin)
+    \item \href{https://github.com/SteelPh0enix/Orion-Mini-Rover}{Firmware for Orion Mini rover} and \href{https://github.com/SteelPh0enix/Orion-Mini-Controller}{it's controller}, communicating via nRF24L01+ using JSON API (C++)
+\end{tightlist}
+
+\vspace{\topsep}
+
+\section{Education}
+
+\combosection{Electronic School Group in Lublin}{ITC Technician}{2013-2017}{}
+\vspace{\topsep}
+\combosection{Lublin University of Technology}{Computer Science Engineer}{2017-2021}{}
+Title of thesis: Analog data acquisitor based on RaspberryPi
+\vspace{\topsep}
+\combosection{Lublin University of Technology}{MSc. in Computer Science}{2021-2023}{}
+Title of thesis: Comparative analysis of methods for tracking mobile robotic platforms
+
+\vspace{\topsep}
+
+\end{document}

@@ -1,8 +1,7 @@
 # CV
 
+[Click here for PDF version (EN)](./my_resume_en.pdf)
 [Click here for PDF version (PL)](./my_resume_pl.pdf)
-
-![pl_resume](./my_resume_pl.png)
 
 ## License
 
